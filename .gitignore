@@ -1,0 +1,4 @@
+.env/
+env/
+project_env/
+virtual_env/
