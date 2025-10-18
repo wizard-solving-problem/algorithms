@@ -2,3 +2,4 @@
 env/
 project_env/
 virtual_env/
+*.txt.lock
