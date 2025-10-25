@@ -25,12 +25,12 @@ Merge Sort is a divide-and-conquer algorithm that works by recursively breaking 
 - O(n) - requires additional space for temporary arrays  
 
 **When to Use Merge Sort**  
-***Good for:***  
+***Good for:***
 - Large datasets  
 - When stability is important  
 - External sorting (data doesn't fit in RAM)  
-- Linked lists (can be implemented with O(1) extra space)  
-***Less ideal for:***  
+- Linked lists (can be implemented with O(1) extra space)
+***Less ideal for:***
 - Small arrays (overhead of recursion)  
 - Memory-constrained environments  
 - When you need an in-place sort  
