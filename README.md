@@ -48,3 +48,15 @@ Quick Sort is a divide-and-conquer algorithm:
 
 The “in-place” part means we do this without using extra arrays — we rearrange the elements within the same array.  
 Quick Sort doesn’t directly “sort” all the elements. Instead, it keeps putting pivots in their correct positions.  
+
+### Time Complexity
+- Best Case: O(n log n)  
+- Average Case: O(n log n)  
+- Worst Case: O(n^2)  
+
+### Space Complexity
+- O(log n) – recursion stack (in-place partitioning).  
+
+
+
+# Binary Search
