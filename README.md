@@ -35,3 +35,16 @@ Merge Sort is a divide-and-conquer algorithm that works by recursively breaking 
 - Small arrays (overhead of recursion)  
 - Memory-constrained environments  
 - When you need an in-place sort  
+
+
+
+# Quick Sort (In-place)
+Quick Sort is a divide-and-conquer algorithm:  
+1. Pick a pivot element.  
+2. Partition the array so that:  
+    - Elements smaller than the pivot go to its left.  
+    - Elements larger than the pivot go to its right.  
+3. Recursively apply the same process to the left and right sides.  
+
+The “in-place” part means we do this without using extra arrays — we rearrange the elements within the same array.  
+Quick Sort doesn’t directly “sort” all the elements. Instead, it keeps putting pivots in their correct positions.  
