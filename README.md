@@ -80,3 +80,32 @@ Imagine you're looking for a word in a dictionary:
     - If target > middle: Search the right half  
 4. Repeat until found or the search space is empty  
 
+
+
+
+
+# Two Pointers
+Two Pointers uses two references (pointers) that traverse a data structure (usually an array or string) to solve problems in O(n) time instead of O(n²). Works on sorted array
+
+### Common Patterns
+1. **Opposite Direction Pointers:**
+Pointers start at both ends and move toward each other.  
+Example: Two Sum in Sorted Array  
+2. **Same Direction Pointers:**
+Both pointers start at the beginning and move in the same direction.  
+Example: Remove Duplicates from Sorted Array  
+3. **Fast and Slow Pointers:**
+One pointer moves faster than the other.   
+Example: Linked List Cycle Detection  
+
+### When to Use Two Pointers
+Use this technique when you need to:
+- Find pairs/triplets in sorted arrays
+- Remove duplicates
+- Check palindromes
+- Merge sorted arrays
+- Find subarrays with certain properties
+
+### Time & Space Complexity
+- Time Complexity: Usually O(n) - much better than brute force O(n²)
+- Space Complexity: O(1) - only using a few pointers
