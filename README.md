@@ -59,4 +59,24 @@ Quick Sort doesn’t directly “sort” all the elements. Instead, it keeps put
 
 
 
+
+
+
 # Binary Search
+Binary search is an efficient algorithm for finding an item in a sorted list by repeatedly dividing the search interval in half.  
+
+### How It Works
+Imagine you're looking for a word in a dictionary:  
+- You don't start at page 1  
+- You open to the middle and check if your word comes before or after  
+- You eliminate half the remaining pages and repeat  
+
+### Steps
+1. Start with the entire sorted array  
+2. Find the middle element  
+3. Compare the middle element with your target:  
+    - If they match: Success! Return the index  
+    - mIf target < middle: Search the left half  
+    - If target > middle: Search the right half  
+4. Repeat until found or the search space is empty  
+
